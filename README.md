@@ -5,9 +5,10 @@ Userscript that executes [python-readability](https://github.com/buriy/python-re
 ## Install
 
 1. Install `readability-lxml` using pip or system package manager:
-```bash
-pip2 install readability-lxml
-```
+  ```bash
+  pip2 install readability-lxml
+  ```
+  
 2. Place the script at `~/.local/share/qutebrowser/userscripts/readability`
 
 
