@@ -1,4 +1,5 @@
 sudo: false
+script:
 deploy:
   provider: releases
   api_key: ${GH_TOKEN}
