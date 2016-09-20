@@ -5,7 +5,7 @@ from readability.readability import Document
 
 tmpfile=os.path.expanduser('~/.local/share/qutebrowser/userscripts/readability.html')
 if not os.path.exists(os.path.dirname(tmpfile)):
-        os.makedirs(os.path.dirname(tmpfile))
+    os.makedirs(os.path.dirname(tmpfile))
 
 with codecs.open(os.environ['QUTE_HTML'], 'r', 'utf-8') as source:
     doc = Document(source.read())
