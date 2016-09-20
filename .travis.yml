@@ -1,5 +1,6 @@
 sudo: false
 script:
+  - echo 'skip build'
 deploy:
   provider: releases
   api_key: ${GH_TOKEN}
