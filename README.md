@@ -1,5 +1,7 @@
 # qutebrowser-readability
 
+[![Build Status](https://travis-ci.org/rsteube/qutebrowser-readability.svg?branch=master)](https://travis-ci.org/rsteube/qutebrowser-readability)
+
 Userscript that executes [python-readability](https://github.com/buriy/python-readability) on current page and opens the summary as new tab.
 
 ## Install
